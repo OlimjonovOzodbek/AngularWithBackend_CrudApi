@@ -1,0 +1,47 @@
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Name</span>
+  <input
+    type="text"
+    class="form-control"
+    aria-label="Username"
+    aria-describedby="addon-wrapping"
+    [(ngModel)]="crModel.name"
+  />
+</div>
+<br />
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Price</span>
+  <input
+    type="text"
+    class="form-control"
+    aria-label="Username"
+    aria-describedby="addon-wrapping"
+    [(ngModel)]="crModel.price"
+  />
+</div>
+<br />
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Guarantee Duration</span>
+  <input
+    type="text"
+    class="form-control"
+    aria-label="Username"
+    aria-describedby="addon-wrapping"
+    [(ngModel)]="crModel.guaranteeDuration"
+  />
+</div>
+<br />
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Made In</span>
+  <input
+    type="text"
+    class="form-control"
+    aria-label="Username"
+    aria-describedby="addon-wrapping"
+    [(ngModel)]="crModel.madeIn"
+  />
+</div>
+<br />
+<br />
+
+<button class="btn btn-primary" (click)="creat()">Submit</button>

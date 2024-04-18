@@ -1,0 +1,27 @@
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">ID</span>
+  <input [(ngModel)]="id" type="text" class="form-control" placeholder="ID" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+<br>
+<br>
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Name</span>
+  <input [(ngModel)]="crModel.name" type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+<br>
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Price</span>
+  <input [(ngModel)]="crModel.price" type="text" class="form-control" placeholder="Price" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+<br>
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Guarantee Duration</span>
+  <input  [(ngModel)]="crModel.guaranteeDuration" type="text" class="form-control" placeholder="Guarantee Duration" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+<br>
+<div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Made in</span>
+  <input [(ngModel)]="crModel.madeIn" type="text" class="form-control" placeholder="Country" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+<br>
+<button class="btn btn-success" (click)="update()">Update</button>
